@@ -7,5 +7,25 @@ package archiviojava3bit;
  * @author INSERISCI_NOME
  */
 public class X {
+    private String codice;
+    
+    private String tipologiaCioccolato;
+    
+    private float prezzoCioccolato;
+    
+    private String scadenzaCioccolato;
+    
+    private String formaDelCioccolatino;
+    
+    private int cioccolatiniNelmagazino;
+    
+    public X(String codice, String tipolgiaCioccolato, float prezzoCioccolato, String scadenzaCioccolato, String formadelCioccolato, int cioccolatiniNelMagazzino) {
+        this.tipologiaCioccolato = tipologiaCioccolato;
+        
+    }
+    
+    
+    
+    
     
 }
